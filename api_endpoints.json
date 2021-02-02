@@ -1,0 +1,10 @@
+[
+  {
+    "domain": null,
+    "method": "GET|HEAD",
+    "uri": "api/v1/auth",
+    "name": null,
+    "action": "App\\Http\\Controllers\\Api\\AuthController@get_authenticated_user",
+    "middleware": "api\nauth\nClosure"
+  }
+]
